@@ -1,0 +1,100 @@
+
+body{
+  background-image: linear-gradient(to right, #dcd5ef, #bdd1f4, #92d0ef, #68cdda, #5bc8b6);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+
+}
+
+h1{
+    font-size: 1.8em;
+    text-align: center;
+    margin: 1em;
+    color: #ffffff;
+    font-weight: 800;
+
+}
+#containerInformacoes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 1em auto;
+    justify-content: center;
+    background-color: #d4ffff;
+    max-width: 70%;
+    border-radius: 16px;
+    padding: 1em;
+    gap: 0.5em;
+    align-items: center;
+}
+
+#containerInformacoes p{
+    font-size: 1em;
+    text-align: center;
+    margin: 0.5em;
+    color: #14bed8;
+    font-weight: 800; 
+}
+
+input{
+    border: none;
+    border-radius: 16px;
+    padding: 12px;
+    text-align: center;
+    background-color: #82e1ee65;
+    color: #008995;
+    font-weight: 600;
+    max-width: 80%;
+}
+
+input#calcular{
+    margin: 0.5em;
+    color: #01cfef;
+    font-style: italic;
+    font-weight: 600;
+}
+
+input#calcular:hover{
+    background-color: #ffffff;
+}
+
+#resultado, #descricaoResultado{
+    margin: 1em auto;
+    font-size: 1em;
+    text-align: center;
+    margin: 0.5em;
+    color: #01606e;
+    font-weight: 800; 
+
+}
+
+#tabelaInformativa{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 1em auto;
+    justify-content: center;
+    background-color: #d4ffff;
+    max-width: 70%;
+    border-radius: 16px;
+    padding: 1em;
+    gap: 0.5em;
+    align-items: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th{
+    border: 1px solid #bdd1f4;
+    text-align: left;
+    padding: 8px; 
+}
+
+tr:nth-child(even) {
+    background-color: #bdd1f47b;
+  }

@@ -1,0 +1,75 @@
+/* CSS Reset */
+
+/* Remove margens e paddings padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Define largura de 100% para body e html */
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
+  
+
+  
+  /* Remove bullets e padding de listas */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remove sublinhado de links */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Remove borda padrão dos botões */
+  button {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  /* Remove borda e padding dos inputs e selects */
+  input, select {
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Remove bordas e paddings das tabelas */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Define imagens responsivas */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Remove estilos de cabeçalhos */
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+  }
+  
+  /* Remove margem e padding dos elementos de formulário */
+  fieldset, legend {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  /* Define largura 100% para block-level elements */
+  article, aside, footer, header, nav, section, main {
+    display: block;
+    width: 100%;
+  }
+  
